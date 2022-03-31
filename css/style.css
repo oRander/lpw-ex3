@@ -1,0 +1,80 @@
+@font-face {
+    font-family: NovaFlat;
+    src: url(../fontes/NovaFlat-Regular.ttf);
+}
+
+html{
+    font-family: NovaFlat;
+}
+
+body{
+    margin: 0;
+}
+
+/*Header*/
+.header{
+    width: calc(100% - 200px);
+    background: #F99C1B;
+    padding: 15px 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    max-width: 8%;
+}
+
+.logo img{
+    height: 50px;
+}
+.header_menu{
+    margin-left: 100px;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.header_menu ul li a{
+    color: #231F20;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header_menu ul li a:hover{
+    color: white;
+}
+
+/*banner*/
+
+.banner{
+    height: 400px;
+    background:url(../imagens/banners/page1.png);
+    background-size: cover;
+    text-align: left;
+    padding-top:80px ;
+}
+
+.banner h1{
+    font-size: 56px;
+    color: #F99C1B;
+    border-bottom: 1px solid #F99C1B;
+    width: fit-content;
+}
+
+.banner_txt{
+    margin-left: 100px;
+}
+
+.noticia{
+    background: red ;
+    width: 100px;
+    height: 50px;
+}
